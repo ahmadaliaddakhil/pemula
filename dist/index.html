@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ahmad Ali Addakhil" />
+    <title>Ahmad Ali - Pemula</title>
+    <link rel="shortcut icon" href="img/logo-coding.png" type="image/x-icon" />
+    <link href="output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="">
+    <div class="relative -z-10">
+      <img
+        src="img/bg1.webp"
+        class="absolute md:right-96 blur-[1px] w-auto"
+        alt="background"
+        width="100"
+        height="100"
+      />
+    </div>
+    <nav class="mt-4 mx-5 md:mx-0 text-black">
+      <div
+        class="md:max-w-screen-sm container md:rounded-full rounded-xl md:w-full fixed top-4 md:right-0 right-4 md:left-0 mx-auto w-16 border-2 bg-white bg-opacity-10 backdrop-blur-sm border-black border-opacity-10 z-[999999]"
+      >
+        <div class="mx-5 md:mx-0 py-4 md:py-1 relative">
+          <div class="flex justify-center items-center">
+            <button
+              class="flex flex-col space-y-1 md:hidden transition duration-300 ease-in-out"
+              id="hamburgerBtn"
+              title="hamburger"
+            >
+              <span
+                class="h-2 bg-black w-[32px] block rounded-tr-full rounded-tl-full transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="h-1 bg-black w-[32px] block rounded-full origin-top-left transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="h-1 bg-black w-[32px] block rounded-full origin-bottom-left transition duration-300 ease-in-out"
+              ></span>
+            </button>
+            <div class="">
+              <ul
+                class="gap-4 px-2 group text-center py-2 md:p-0 z-10 rounded-xl hidden md:flex md:flex-row flex-col bg-white border-2 md:border-none md:bg-transparent text-black right-2 top-16"
+                id="hamburgerLists"
+              >
+                <li class="my-3">
+                  <a
+                    href="#home"
+                    class="hover:bg-slate-300 w-28 px-3 py-2 rounded-2xl md:hover:bg-transparent md:hover:underline underline-offset-4 decoration-wavy transition duration-300 ease-in-out"
+                    >Home</a
+                  >
+                </li>
+                <li class="my-3">
+                  <a
+                    href="#about"
+                    class="hover:bg-slate-300 w-28 px-3 py-2 rounded-2xl md:hover:bg-transparent md:hover:underline underline-offset-4 decoration-wavy transition duration-300 ease-in-out"
+                    >About</a
+                  >
+                </li>
+                <li class="my-3">
+                  <a
+                    href="#project"
+                    class="hover:bg-slate-300 w-28 px-3 py-2 rounded-2xl md:hover:bg-transparent md:hover:underline underline-offset-4 decoration-wavy transition duration-300 ease-in-out"
+                    >Certificate</a
+                  >
+                </li>
+                <li class="my-3">
+                  <a
+                    href="#contact"
+                    class="hover:bg-slate-300 w-28 px-3 py-2 rounded-2xl md:hover:bg-black md:hover:text-white transition duration-300 ease-in-out md:hover:underline underline-offset-4 decoration-wavy"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+    <section id="home" > <!-- Tambahkan kelas bg-gray-100 atau sesuai keinginan untuk memberi warna latar belakang -->
+      <div class="max-w-screen-xl container mx-auto">
+        <div class="pt-36 pb-32 text-center mt-36 mb-32">
+          <h1 class="md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2">
+            Hi Everyone
+            <span class="text-2xl shake -z-[1]">👋</span>
+            <span>, I am</span>
+          </h1>
+          <div class="flex justify-center items-center mb-5 mt-7 relative">
+            <h1 class="md:text-8xl text-6xl font-bold bg-gradient-to-tr from-sky-500 to-purple-600 bg-clip-text text-transparent">
+              ALI
+            </h1>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-full text-center">
+              <h1 class="md:text-9xl text-[90px] md:text-[120px] opacity-10 font-bold bg-gradient-to-tr from-sky-500 to-purple-600 bg-clip-text text-transparent">
+                ALI
+              </h1>
+            </div>
+          </div>
+          <div class="text-center">
+            <h1 class="md:text-2xl text-md text-slate-800 font-bold my-3">
+              A high school student
+            </h1>
+            <h1 id="typewriter" class="md:text-xl text-sm text-slate-600 flex justify-center items-center gap-1">
+              <span class="text-static">I'm still a beginner, please tutor me </span>
+              <span id="dynamic-word" class="text-sepuh text-purple-500">sepuh</span> <!-- Tambahkan warna teks sesuai keinginan -->
+              <span id="cursor" class="animate-blink text-purple-500">|</span> <!-- Tambahkan warna teks sesuai keinginan -->
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="about" class="">
+      <div class="relative -z-10">
+        <img
+          src="img/aboutbg.webp"
+          class="-top-2 absolute w-auto"
+          alt="background"
+          width="100"
+          height="100"
+        />
+        <img
+          src="img/aboutbg.webp"
+          class="-top-2 right-0 absolute w-auto"
+          alt="background"
+          width="100"
+          height="100"
+        />
+      </div>
+      <div class="max-w-screen-xl container mx-auto">
+        <div class="pt-36 pb-32 text-center">
+          <div class="mx-4">
+            <div class="my-5 p-10">
+              <div class="flex justify-center items-center">
+                <div class="relative">
+                  <h1 class="text-3xl roket absolute -top-4 -left-10 -z-[1]">
+                    🚀
+                  </h1>
+                </div>
+                <div class="relative -z-[2]">
+                  <h1
+                    class="text-5xl font-bold absolute opacity-10 -left-12 -top-8"
+                  >
+                    About.me
+                  </h1>
+                </div>
+                <h1 class="text-3xl font-bold">About me</h1>
+              </div>
+            </div>
+            <div
+              class="flex md:justify-between flex-col justify-center md:flex-row items-center"
+            >
+              <div
+                class="p-3 md:w-1/2 mx-auto text-center text-lg md:text-left justify-center flex items-center my-10 bg-slate-100 md:bg-transparent rounded-xl"
+              >
+                <h1 class="container mx-auto">
+                  Hello! Let me introduce myself. My name is <a class="text-slate-900 underline decoration-sky-500" >Ahmad Ali Addakhil</a>, a 17-year-old
+                  an enthusiastic teenager learning about web development. Although my age may still be relatively young,
+                  my interest and dedication to the world of web programming
+                  has taken me on a journey that is both thrilling and exciting. I believe that
+                  technology is at the heart of the future, and I'm committed to
+                  continue to learn, grow, and contribute to the world of
+                  web development.
+                </h1>
+              </div>
+                  <img
+                    src="img/pp.svg"
+                    alt="foto_ali"
+                    width="400"
+                    height="400"
+                    />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="">
+      <div class="relative -z-10">
+        <img
+          src="img/projectsbg.webp"
+          class="-top-2 absolute w-auto"
+          alt="background"
+          width="100"
+          height="100"
+        />
+        <img
+          src="img/projectsbg.webp"
+          class="-top-2 right-0 absolute w-auto"
+          alt="background"
+          width="100"
+          height="100"
+        />
+      </div>
+      <div class="max-w-screen-xl container mx-auto">
+        <div class="pt-36 pb-32 text-center">
+          <div class="mx-4">
+            <div class="my-5 p-10">
+              <div class="flex justify-center items-center">
+                <div class="relative">
+                  <h1 class="absolute -top-5 -left-7 w-10 -z-[1] spin">
+                    <img
+                      src="img/burst-bloat.svg"
+                      class="w-auto"
+                      alt="iconbalingbaling"
+                      width="100%"
+                      height="100%"
+                    />
+                  </h1>
+                </div>
+                <div class="relative -z-[2]">
+                  <h1
+                    class="text-6xl font-bold absolute opacity-10 -left-11 -top-10"
+                  >
+                    Certificate
+                  </h1>
+                </div>
+                <h1 class="text-3xl font-bold">My Certificate</h1>
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center py-4 px-2 rounded-xl"
+            >
+              <div
+                class="flex flex-col gap-10 justify-center md:flex-row flex-warp items-center"
+              >
+                <div
+                  class="p-3 md:w-1/2 mx-auto flex justify-center items-center transition-all duration-300 ease-in-out rounded-2xl border-2 backdrop-blur-sm hover:scale-[1.02]"
+                >
+                  <div class="flex flex-col justify-center items-center">
+                    <img
+                      src="img/sertif-1.jpg"
+                      alt="Certificate1"
+                      class="rounded-xl mt-2 shadow-md w-auto"
+                      width="100"
+                      height="100"
+                    />
+                    <div class="flex justify-center items-center gap-4">
+                      <h1 class="mt-2">Certificate V1</h1>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-3 md:w-1/2 mx-auto flex justify-center items-center transition-all duration-300 ease-in-out rounded-2xl border-2 backdrop-blur-sm hover:scale-[1.02]"
+                >
+                  <div class="flex flex-col justify-center items-center">
+                    <img
+                      src="img/sertif-1.jpg"
+                      alt="Certificate2"
+                      class="rounded-xl mt-2 shadow-md w-auto"
+                      width="100"
+                      height="100"
+                    />
+                    <div class="flex justify-center items-center gap-4">
+                      <h1 class="mt-2">Certificate V2</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-10 justify-center md:flex-row flex-warp items-center mt-10"
+              >
+                <div
+                  class="p-3 md:w-1/2 mx-auto flex justify-center items-center transition-all duration-300 ease-in-out rounded-2xl border-2 backdrop-blur-sm hover:scale-[1.02]"
+                >
+                  <div class="flex flex-col justify-center items-center">
+                    <img
+                      src="img/sertif-1.jpg"
+                      alt="Certificate3"
+                      class="rounded-xl mt-2 shadow-md w-auto"
+                      width="100"
+                      height="100"
+                    />
+                    <div class="flex justify-center items-center gap-4">
+                      <h1 class="mt-2">Certificate V3</h1>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-3 md:w-1/2 mx-auto flex justify-center items-center transition-all duration-300 ease-in-out rounded-2xl border-2 backdrop-blur-sm hover:scale-[1.02]"
+                >
+                  <div class="flex flex-col justify-center items-center">
+                    <img
+                      src="img/sertif-1.jpg"
+                      alt="Certificate4"
+                      class="rounded-xl mt-2 shadow-md w-auto"
+                      width="100"
+                      height="100"
+                    />
+                    <div class="flex justify-center items-center gap-4">
+                      <h1 class="mt-2">Certificate V4</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-10 justify-center md:flex-row flex-warp items-center mt-10"
+              >
+                <div
+                  class="p-3 md:w-1/2 mx-auto flex justify-center items-center transition-all duration-300 ease-in-out rounded-2xl border-2 backdrop-blur-sm hover:scale-[1.02]"
+                >
+                  <div class="flex flex-col justify-center items-center">
+                    <img
+                      src="img/sertif-1.jpg"
+                      alt="Certificate5"
+                      class="rounded-xl mt-2 w-auto shadow-md"
+                      width="100"
+                      height="100"
+                    />
+                    <div class="flex justify-center items-center gap-4">
+                      <h1 class="mt-2">Certificate V5</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="">
+      <div class="relative -z-10">
+        <img
+          src="img/bg1.webp"
+          class="absolute md:right-96 blur-[1px] w-auto"
+          alt="background"
+          width="100"
+          height="100"
+        />
+      </div>
+      <div class="max-w-screen-xl container mx-auto">
+        <div class="pt-36 pb-32 text-center">
+          <div class="mx-4">
+            <div class="my-5 p-10">
+              <div class="flex justify-center items-center">
+                <div class="relative">
+                  <h1 class="text-3xl absolute -top-6 -left-10 shake -z-[1]">
+                    <!--ICON-->
+                  </h1>
+                </div>
+                <div class="relative -z-[2]">
+                  <h1
+                    class="text-6xl font-bold absolute opacity-10 -left-10 -top-10"
+                  >
+                    Contact
+                  </h1>
+                </div>
+                <h1 class="text-3xl font-bold">Contact me</h1>
+              </div>
+            </div>
+            <div class="flex justify-center items-center md:mt-20 mt-14">
+              <div class="flex flex-col space-y-5 justify-center items-center">
+                <img
+                  src="img/ali.jpg"
+                  alt="pp"
+                  class="w-40 rounded-full ring-2 ring-black"
+                  width="10"
+                  height="10"
+                />
+                <h1 class="text-4xl font-medium">Lets us be connected</h1>
+                <h1 class="text-3xl">Contact me via</h1>
+                <div
+                  class="flex justify-center items-center gap-8 bg-white p-5 rounded-xl shadow-lg"
+                >
+                  <a
+                    href="https://github.com/ahmadaliaddakhil"
+                    target="_blank"
+                    class="flex p-2 justify-center items-center"
+                    aria-label="github"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      height="28"
+                      width="28"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                      ></path></svg
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/ali.addh_"
+                    target="_blank"
+                    class="flex p-2 justify-center items-center"
+                    aria-label="instagram"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      height="28"
+                      width="28"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                      ></path></svg
+                  ></a>
+                  <a
+                    href="https://discord.gg/Yt9tZT3ZWQ"
+                    target="_blank"
+                    class="flex p-2 justify-center items-center"
+                    aria-label="discord"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      height="28"
+                      width="28"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"
+                      ></path></svg
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="max-w-screen-xl container mx-auto text-center mb-3">
+      <h1>
+        ©2023 Made with ☕ by <a class="underline decoration-sky-500" href="https://github.com/ahmadaliaddakhil ">Ahmad Ali</a>
+      </h1>
+    </div>
+
+    <!--back to top-->
+    <a
+      href="#home"
+      id="to-top"
+      aria-label="back to top"
+      class="w-12 h-12 p-4 md:w-14 md:h-14 rounded-full shadow-md bg-white border-2 fixed bottom-4 right-4 z-[9999] text-center justify-center items-center hidden transition duration-500 ease-in-out animate-bounce"
+    >
+      <svg
+        enable-background="new 0 0 32 32"
+        id="Layer_1"
+        version="1.1"
+        viewBox="0 0 32 32"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          d="M18.221,7.206l9.585,9.585c0.879,0.879,0.879,2.317,0,3.195l-0.8,0.801c-0.877,0.878-2.316,0.878-3.194,0  l-7.315-7.315l-7.315,7.315c-0.878,0.878-2.317,0.878-3.194,0l-0.8-0.801c-0.879-0.878-0.879-2.316,0-3.195l9.587-9.585  c0.471-0.472,1.103-0.682,1.723-0.647C17.115,6.524,17.748,6.734,18.221,7.206z"
+          fill="#515151"
+        /></svg
+    ></a>
+    <!-- backtotop-->
+    <script src="main.js"></script>
+  </body>
+</html>
