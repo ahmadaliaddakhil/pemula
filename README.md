@@ -1,0 +1,2 @@
+# pemula
+masih cupu bang
